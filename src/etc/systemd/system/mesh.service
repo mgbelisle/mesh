@@ -1,0 +1,12 @@
+[Unit]
+Description=Mesh service
+Requires=avahi-daemon
+After=avahi-daemon
+
+[Service]
+ExecStart=/usr/bin/mesh.py
+Type=oneshot
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
