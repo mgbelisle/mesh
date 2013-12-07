@@ -23,6 +23,10 @@ Once started, machines on the mesh are addressable via `hostname.local`.
 $ ping ares.local
 ```
 
+Config
+------
+Configs are set permanently via [/etc/mesh.conf](src/etc/mesh.conf) or temporarily as command line parameters to `mesh.py`.  (See `mesh.py --help`)
+
 Troubleshooting
 ---------------
 * If a machine is not reachable via `hostname.local`, make sure [mdns](https://wiki.archlinux.org/index.php/avahi#Hostname_resolution) is enabled in `/etc/nsswitch.conf`.
