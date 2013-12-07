@@ -25,7 +25,7 @@ $ ping ares.local
 
 Config
 ------
-Configs are set permanently via [/etc/mesh.conf](src/etc/mesh.conf) or temporarily as command line parameters to `mesh.py`.  (See `mesh.py --help`)
+Configs are set via [/etc/mesh.conf](src/etc/mesh.conf).
 
 Troubleshooting
 ---------------
